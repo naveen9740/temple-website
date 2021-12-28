@@ -37,7 +37,7 @@
   margin: 10px;
   text-decoration: none;
 }
-.nav-lineTwo-menu > li {
+.nav-lineTwo-menu > .item {
   padding: 0.6rem;
   margin-right: 1.9rem;
   cursor: pointer;
@@ -47,7 +47,10 @@
   font-weight: 600;
   transition: all 1s;
 }
-.nav-lineTwo-menu > li:hover {
+.is-active {
+  color: red;
+}
+.nav-lineTwo-menu > .item:hover {
   background-color: #f89d0e;
   color: white;
 }

@@ -4,6 +4,20 @@ export const Images = [
   `https://i.ibb.co/cJh6dPJ/templ6.jpg`,
   `https://i.ibb.co/jZVMSnF/templ3.jpg`,
 ];
+export const menuItems = [
+  {
+    name: "Home",
+    endpoint: "/",
+  },
+  {
+    name: "About",
+    endpoint: "/about",
+  },
+  {
+    name: "Contact",
+    endpoint: "/contact",
+  },
+];
 export const infoAboutTemple = [
   {
     name: "About the Temple",
