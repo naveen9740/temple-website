@@ -1,0 +1,19 @@
+.footer {
+  /* border: 1px solid red; */
+  margin: 20px 0px 0px 0px;
+  padding: 20px 0px;
+  background-color: #f89d0e;
+  color: white;
+}
+.contact > h3 {
+  padding-bottom: 15px;
+}
+p {
+  margin: 10px;
+  font-size: 1.1rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
