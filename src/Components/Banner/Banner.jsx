@@ -3,9 +3,10 @@ import { Images } from "../../data";
 import { useState } from "react";
 export const Banner = () => {
   let [img, setImg] = useState(0);
-  // setTimeout(() => {
-  //   setImg(img > 2 ? 0 : img + 1);
-  // }, 4000);
+  setTimeout(() => {
+    setImg(img >= 4 ? 0 : img + 1);
+  }, 6000);
+  console.log(img);
   return (
     <div className="banner">
       <img

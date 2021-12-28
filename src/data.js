@@ -3,6 +3,7 @@ export const Images = [
   `https://i.ibb.co/9whQZkS/templwm.jpg`,
   `https://i.ibb.co/cJh6dPJ/templ6.jpg`,
   `https://i.ibb.co/jZVMSnF/templ3.jpg`,
+  `https://i.ibb.co/9wWCYvm/temp2.jpg`,
 ];
 export const menuItems = [
   {
